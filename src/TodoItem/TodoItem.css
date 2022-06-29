@@ -13,6 +13,8 @@
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .TodoItem-p--complete {
     text-decoration: line-through;
