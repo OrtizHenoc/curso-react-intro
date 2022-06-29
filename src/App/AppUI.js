@@ -23,6 +23,7 @@ function AppUI() {
       setOpenModal(false);
     }
   }
+  
     return (
         <React.Fragment>
         <TodoCounter/>
@@ -48,11 +49,6 @@ function AppUI() {
         {!!openModal &&(
           <Modal>
           <p>{searchedTodos[0]?.text}</p>
-          <button 
-          onClick={cancelTodo} 
-          className='ModalButton'>
-            Cancel
-          </button>
         </Modal>
         )}; 
         <CreateTodoButton
