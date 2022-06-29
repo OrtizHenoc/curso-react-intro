@@ -11,6 +11,7 @@ function TodoProvider (props){
         error,
       } = useLocalStorage('TODOS_V1',[]);
       const [searchValue,setsearchValue] = React.useState('');
+      const [openModal, setOpenModal] =  React.useState(false);
       //variable para guardar la cantidad de todos con la propiedad completed true,
       //usando filter para guardar solo los true y .length para saber cuantos son
       const completedTodos = todos.filter(todo => !! todo.completed).length;
@@ -62,7 +63,9 @@ function TodoProvider (props){
             setsearchValue,
             searchedTodos,
             completeTodo,
-            deleteTodo, 
+            deleteTodo,
+            openModal,
+            setOpenModal,
         }}>
             {props.children}
         </TodoContext.Provider>

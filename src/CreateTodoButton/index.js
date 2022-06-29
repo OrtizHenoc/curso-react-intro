@@ -1,14 +1,14 @@
 import React from 'react';
 import './CreateTodoButton.css'
 
-function CreateTodoButton(){
-    const onClickButton = (msg) => {
-        alert(msg);
+function CreateTodoButton(props){
+    const onClickButton = () => {
+        props.setOpenModal(true);
     };
     return(
         <button 
             className='CreateTodoButton'
-            onClick={ () =>onClickButton ('Aqui se deberia abrir el modal')} //todo lo que empieza con on ayuda a escuchar los eventos
+            onClick={onClickButton} //todo lo que empieza con on ayuda a escuchar los eventos
         >
             +
         </button>
