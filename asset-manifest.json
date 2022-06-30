@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/curso-react-intro/static/css/main.3fb2c777.css",
+    "main.js": "/curso-react-intro/static/js/main.070724b0.js",
+    "static/media/check.svg": "/curso-react-intro/static/media/check.1b7256e8b779cbd0e1163f287495170f.svg",
+    "static/media/delete.svg": "/curso-react-intro/static/media/delete.8860742bc29bfeb44e0f9b94c5410696.svg",
+    "index.html": "/curso-react-intro/index.html",
+    "main.3fb2c777.css.map": "/curso-react-intro/static/css/main.3fb2c777.css.map",
+    "main.070724b0.js.map": "/curso-react-intro/static/js/main.070724b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb2c777.css",
+    "static/js/main.070724b0.js"
+  ]
+}
