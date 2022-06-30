@@ -1,0 +1,17 @@
+.TodoError-Container{
+    background-color: rgba(30, 75, 120, 0.8);
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+pre{
+    color:white;
+    font-size:20px;
+    line-height:20px; 
+    font-family:monospace;
+    height: auto;
+    text-align: center;
+}
+ul p{
+    margin-left: 50px;
+}
